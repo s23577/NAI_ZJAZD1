@@ -33,11 +33,11 @@ def get_recommendations(dataset, chosen_user, score_type):
             print(user)
             print(similarity_score)
 
-        if score_type == "mse" and similarity_score <= 0.3:
+        if score_type == "mse" and similarity_score <= 0.4:
             continue
-        elif score_type == "pearson" and similarity_score <= 0.1:
+        elif score_type == "pearson" and similarity_score <= 0.7:
             continue
-        elif score_type == "Euclidean" and similarity_score <= 0.2:
+        elif score_type == "euclidean" and similarity_score <= 0.3:
             continue
 
         filtered_list = [movie for movie in dataset[user] if movie not in dataset[chosen_user]
