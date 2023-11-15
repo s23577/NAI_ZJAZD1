@@ -1,7 +1,7 @@
 # NAI 3
 Machine learning with K-means algorithm application.
 
-# Movie Recommendations Engine based on Machine Learning
+# Movie and Series Recommendations Engine based on Machine Learning
 
 ## Table of Contents
 
@@ -22,7 +22,7 @@ Machine learning with K-means algorithm application.
 ## Getting Started
 
 ### Prerequisites
-To run the Movie Recommendations Engine you need to have Python 3 installed on your system. If you don't have it, you can download it from the [official Python website](https://www.python.org/).
+To run the Movies or Series Recommendations Engine you need to have Python 3 installed on your system. If you don't have it, you can download it from the [official Python website](https://www.python.org/).
 
 ### Installation
 To install the required libraries, you can use pip:
@@ -45,7 +45,7 @@ To run the program use the command line to provide user and score type:
 
 
 ### Output
-The program will display movie recommendations for the specified user based on the selected score type. The recomentations are splitted to the 5 most recomended and to the 5 most not recommended.
+The program will display movies/series recommendations for the specified user based on the selected score type. The recomentations are splited to the 5 most recomended and to the 5 most not recommended.
 
 
 ### Program Examples

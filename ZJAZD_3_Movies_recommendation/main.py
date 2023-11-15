@@ -1,6 +1,6 @@
 """
 ==================================================
-Movies or series recommendation engine
+Movies and series recommendation engine
 ==================================================
 
 Authors:
@@ -11,8 +11,10 @@ To run the program, install the following Python packages (if required):
 pip3 install NumPy
 pip3 install argparse
 
-This program uses a movie or series recommendation engine based on collaborative filtering. It provides personalized
-recommendations for users by analyzing their movie preferences and comparing them with other users in the dataset.
+This program uses a movie or series recommendation engine based on collaborative filtering. It uses K-means concept for
+machine learning application.
+It provides personalized recommendations for users by analyzing their movie preferences and comparing them with other
+users in the dataset.
 
 Please ensure that your movie data is stored in a JSON file ('movieData.json') with the following format:
 {
@@ -21,9 +23,12 @@ Please ensure that your movie data is stored in a JSON file ('movieData.json') w
     ...
 }
 
-The choice of JSON format allows for a flexible and structured representation of movie ratings data.
+To run the program use the command line to provide user and score type:
 
+python3 main.py --user --score-type <score_type>
 
+--user: Input user, as a String.
+--score-type: Choose between Euclidean, Pearson, or MSE distance metrics, as a String.
 
 """
 
