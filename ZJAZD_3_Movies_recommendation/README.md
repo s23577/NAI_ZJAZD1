@@ -22,7 +22,7 @@ Machine learning with K-means algorithm application.
 ## Getting Started
 
 ### Prerequisites
-To run the Movies or Series Recommendations Engine you need to have Python 3 installed on your system. If you don't have it, you can download it from the [official Python website](https://www.python.org/).
+To run the Movies and Series Recommendations Engine you need to have Python 3 installed on your system. If you don't have it, you can download it from the [official Python website](https://www.python.org/).
 
 ### Installation
 To install the required libraries, you can use pip:
@@ -45,19 +45,41 @@ To run the program use the command line to provide user and score type:
 
 
 ### Output
-The program will display movies/series recommendations for the specified user based on the selected score type. The recomentations are splited to the 5 most recomended and to the 5 most not recommended.
+The program will display movies/series recommendations for the specified user based on the selected score type. The recommendations are split to the 5 most recommended and to the 5 most not recommended.
 
 
 ### Program Examples
 
-Pearson distance measure
-![Pearson](https://github.com/s23578-pj/kolokwiumJAZ/assets/73029891/eeef87b0-086a-4daa-a8e2-9193cde26c95)
+#### For Paweł Czapiewski
+* Pearson distance measure
+![Pearson](https://github.com/s23577/NAI_ZJAZD1/blob/main/ZJAZD_3_Movies_recommendation/assets/PC_Pearson.png?raw=true)
 
-Euclidean distance measure
-![Euclidean](https://github.com/s23578-pj/kolokwiumJAZ/assets/73029891/9c2cfb9e-5533-45a5-a36c-e2f05df890a5)
+* Euclidean distance measure
+![Euclidean](https://github.com/s23577/NAI_ZJAZD1/blob/main/ZJAZD_3_Movies_recommendation/assets/PC_Euclidean.png?raw=true)
 
-MSE distance measure
-![MSE](https://github.com/s23578-pj/kolokwiumJAZ/assets/73029891/08892c8b-46e8-4943-af95-dfef47f0c13b)
+* MSE distance measure
+![MSE](https://github.com/s23577/NAI_ZJAZD1/blob/main/ZJAZD_3_Movies_recommendation/assets/PC_MSE.png?raw=true)
+
+#### For Alicja Szczypior
+* Pearson distance measure
+![Pearson](https://github.com/s23577/NAI_ZJAZD1/blob/main/ZJAZD_3_Movies_recommendation/assets/AS_Pearson.png?raw=true)
+
+* Euclidean distance measure
+![Euclidean](https://github.com/s23577/NAI_ZJAZD1/blob/main/ZJAZD_3_Movies_recommendation/assets/AS_Euclidean.png?raw=true)
+
+* MSE distance measure
+![MSE](https://github.com/s23577/NAI_ZJAZD1/blob/main/ZJAZD_3_Movies_recommendation/assets/AS_MSE.png?raw=true)
+
+#### For Krzysztof Szczypior
+* Pearson distance measure
+![Pearson](https://github.com/s23577/NAI_ZJAZD1/blob/main/ZJAZD_3_Movies_recommendation/assets/KS_Pearson.png?raw=true)
+
+* Euclidean distance measure
+![Euclidean](https://github.com/s23577/NAI_ZJAZD1/blob/main/ZJAZD_3_Movies_recommendation/assets/KS_Euclidean.png?raw=true)
+
+* MSE distance measure
+![MSE](https://github.com/s23577/NAI_ZJAZD1/blob/main/ZJAZD_3_Movies_recommendation/assets/KS_MSE.png?raw=true)
+
 
 ## Data Format
 Ensure your movie ratings data is in JSON format and follows the structure outlined below:
@@ -74,4 +96,4 @@ Ensure your movie ratings data is in JSON format and follows the structure outli
 
 If you would like to contribute to this project, please feel free to create issues, submit pull requests, or make suggestions. We welcome all contributions.
 
-Enjoy using The Movie Recommendation Engine!
+Enjoy using The Movie and Series Recommendation Engine!
