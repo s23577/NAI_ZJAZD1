@@ -97,3 +97,4 @@ Ensure your movie ratings data is in JSON format and follows the structure outli
 If you would like to contribute to this project, please feel free to create issues, submit pull requests, or make suggestions. We welcome all contributions.
 
 Enjoy using The Movie and Series Recommendation Engine!
+
