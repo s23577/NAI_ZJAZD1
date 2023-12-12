@@ -35,7 +35,7 @@ import numpy as np
 from sklearn.metrics import accuracy_score, classification_report
 from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeClassifier
-from tools import draw_decision_tree, drawPlotTwoClassesComparison
+from Supported_ML.tools import draw_decision_tree, drawPlotTwoClassesComparison
 
 # Set options to print whole lists
 np.set_printoptions(threshold=np.inf, linewidth=np.inf)
