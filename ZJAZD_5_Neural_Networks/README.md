@@ -1,15 +1,24 @@
 # NAI 5
 Neural Networks for Classification
 
+Neural networks are computational systems inspired by the structure and function of the human brain.
+They are comprised of interconnected nodes known as neurons, organized into layers.
+Each neuron processes input data and transmits signals to neurons in the next layer.
+Neural networks learn by adjusting connections between neurons based on example data.
+
 ## Table of Contents
 
 - [Authors](#authors)
 - [Datasets](#datasets)
 - [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
+  - [Prerequisites and Installation](#prerequisites-and-installation)
+  - [How to run the program](#how-to-run-the-program)
   - [Output](#output)
 - [Program Output Examples](#program-output-examples)
+  - [Wheat Seeds](#wheat-seeds-)
+  - [Cifar-10](#cifar-10---animals)
+  - [Fashion Mnist](#fashion-mnist---clothes)
+  - [Chlorophyll](#chlorophyll)
 - [Contributing](#contributing)
 
 ## Authors
@@ -18,8 +27,10 @@ Neural Networks for Classification
 
 ## Datasets
 
-1. fashion_mnist from <br> _**fashion_mnist.load_data()**_
-2. Chlorophyll A and B levels in Chestnut and Chives from author`s file source: _**chlorophyll_a_b_levels.csv**_
+1. wheat_seeds.csv - author`s file source
+2. fashion_mnist from _**fashion_mnist.load_data()**_
+3. Cifar-10 from _**cifar10.load_data()**_
+4. Chlorophyll A and B levels in Chestnut and Chives from author`s file source: _**chlorophyll_a_b_levels.csv**_
 
 ## Getting Started
 
@@ -48,49 +59,50 @@ Run just every .py file with script per project and used method or press the run
 
 ## Program Output Examples
 
-1. Wheat seed 
 
-### Decision Tree
-* Plots
+### Wheat seeds 
+1. Model:
+![wheat_seed_dt_figure1.png](https://github.com/s23577/NAI_ZJAZD1/blob/main/ZJAZD_5_Neural_Networks/assets/wheat_seed_2.png?raw=true)
+2. Results:
+![wheat_seed_dt_figure2.png](https://github.com/s23577/NAI_ZJAZD1/blob/main/ZJAZD_5_Neural_Networks/assets/wheat_seed_1.png?raw=true)
 
-![wheat_seed_dt_figure1.png](assets%2Fwheat_seed_dt_figure1.png)
-![wheat_seed_dt_figure2.png](assets%2Fwheat_seed_dt_figure2.png)
+### Cifar-10 - Animals
 
-* Decision Tree Schema
+1. Model:
+![cifar_1.png](https://github.com/s23577/NAI_ZJAZD1/blob/main/ZJAZD_5_Neural_Networks/assets/cifar_3.png?raw=true)
+2. Results:
+![cifar_2.png](https://github.com/s23577/NAI_ZJAZD1/blob/main/ZJAZD_5_Neural_Networks/assets/cifar_1.png?raw=true)
+![cifar_3.png](https://github.com/s23577/NAI_ZJAZD1/blob/main/ZJAZD_5_Neural_Networks/assets/cifar_2.png?raw=true)
 
-![wheat_seed_dt_diagram.png](assets%2Fwheat_seed_dt_diagram.png)
+### Fashion mnist - Clothes
 
-* Metrics related to the quality of the classification
-
-![wheat_seed_dt.png](assets%2Fwheat_seed_dt.png)
-
-### Support Vector Machine
-* Metrics related to the quality of the classification
-
-![wheat_seed_svm.png](assets%2Fwheat_seed_svm.png)
-
-2. Chlorophyll A and B levels in Chestnut and Chives
-
-### Decision Tree
-* Plot
-
-![chlorophyl_dt_figure.png](assets%2Fchlorophyl_dt_figure.png)
-
-* Decision Tree Schema
-
-![chlorophyl_dt_diagram.png](assets%2Fchlorophyl_dt_diagram.png)
-
-* Metrics related to the quality of the classification
-
-![chlorophyl_dt.png](assets%2Fchlorophyl_dt.png)
+1. Model A
+![clothes_modelA.png](https://github.com/s23577/NAI_ZJAZD1/blob/main/ZJAZD_5_Neural_Networks/assets/clothes_model_A.png?raw=true)
+2. Model A result
+![clothes_modelA_results.png](https://github.com/s23577/NAI_ZJAZD1/blob/main/ZJAZD_5_Neural_Networks/assets/clothes_model_A_results.png?raw=true)
+3. Model A confusion matrix 
+![clothes_modelA_confusion_matrix.png](https://github.com/s23577/NAI_ZJAZD1/blob/main/ZJAZD_5_Neural_Networks/assets/clothes_model_A_confusion_matrix.png?raw=true)
+4. Model B 
+![clothes_modelB.png](https://github.com/s23577/NAI_ZJAZD1/blob/main/ZJAZD_5_Neural_Networks/assets/clothes_model_B.png?raw=true)
+5. Model B result
+![clothes_modelB_results.png](https://github.com/s23577/NAI_ZJAZD1/blob/main/ZJAZD_5_Neural_Networks/assets/clothes_model_B_results.png?raw=true)
+6. Model B Confusion matrix
+![clothes_modelB_confusion_matrix](https://github.com/s23577/NAI_ZJAZD1/blob/main/ZJAZD_5_Neural_Networks/assets/clothes_model_B_confusion_matrix.png?raw=true)
+7. Model BN
+![clothes_modelB_normalization.png](https://github.com/s23577/NAI_ZJAZD1/blob/main/ZJAZD_5_Neural_Networks/assets/clothes_model_BN.png?raw=true)
+8. Model BN result
+![clothes_modelB_normalization_result.png](https://github.com/s23577/NAI_ZJAZD1/blob/main/ZJAZD_5_Neural_Networks/assets/clothes_model_BN_results.png?raw=true)
+9. Model BN Confusion matrix
+![clothes_modelB_normalization_confusion_matrix.png](https://github.com/s23577/NAI_ZJAZD1/blob/main/ZJAZD_5_Neural_Networks/assets/clothes_model_BN_confusion_matrix.png?raw=true)
 
 
+### Chlorophyll
 
-### Support Vector Machine
-* Metrics related to the quality of the classification
+1. Chlorophyll model
+![chlorophyll_model.png](https://github.com/s23577/NAI_ZJAZD1/blob/main/ZJAZD_5_Neural_Networks/assets/chlorophyll_model.png?raw=true)
 
-![chlorophyl_svm.png](assets%2Fchlorophyl_svm.png)
-
+2. Chlorophyll result
+![chlorophyll_result.png](https://github.com/s23577/NAI_ZJAZD1/blob/main/ZJAZD_5_Neural_Networks/assets/chlorophyll_result.png?raw=true)
 
 
 ## Contributing
