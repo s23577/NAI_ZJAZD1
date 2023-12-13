@@ -1,5 +1,7 @@
 """
+==================================================
 Neural Network for Chlorophyll Levels Classification
+==================================================
 
 Authors:
 Alicja Szczypior
@@ -64,4 +66,5 @@ model.fit(X_train, y_train_categorical, validation_data=(X_test, y_test_categori
 model.summary()
 
 predict = model.predict(X_test[1:])
-print(np.argmax(predict[0]))
+print(f'Real class: {y_test_categorical[1, -1]}')
+print(f'Predicted class: {np.argmax(predict[0])}')
