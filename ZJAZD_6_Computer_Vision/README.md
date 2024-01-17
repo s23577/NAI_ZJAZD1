@@ -46,10 +46,17 @@ If you are working on MAC just use pip3 command.
 Run just every .py file with script per project and used method or press the run button.
 
 ### Gestures manual
+"call me" -> music: on  
+"stop" or "live long" -> music: stop  
+"okay": -> music: pause  
+"smile" -> music: unpause  
+"thumbs up" -> music: volume up  
+"thumbs down" -> music: volume down  
 
 ### Output
 
-//link
+It needs to be downloaded from:
+https://github.com/s23577/NAI_ZJAZD1/blob/main/ZJAZD_6_Computer_Vision/output_example/nai_opencv_test_compressed.mov
 
 ## Contributing
 
